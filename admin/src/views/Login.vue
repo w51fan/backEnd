@@ -45,7 +45,7 @@
         type="primary"
         style="width:100%;margin-bottom:30px;"
         :loading="loading"
-        @click.native.prevent="handleLogin"
+        @click="handleLogin"
       >登陆</el-button>
 
       <!-- <div class="tips">
@@ -110,6 +110,11 @@ export default {
         this.passwordType = 'password';
       }
     },
+    handleLogin(){
+      this.$router.push({
+        name: 'Index',
+      })
+    }
   },
 };
 </script>

@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <login :msg="msg"/>
+    <!-- <login :msg="msg"/> -->
+    biaoge
   </div>
 </template>
 

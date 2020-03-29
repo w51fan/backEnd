@@ -1,21 +1,16 @@
 <template>
-  <div class="table">
-
-  </div>
+  <div class="table">table</div>
 </template>
 
 <script>
 export default {
-  name: 'table',
+  name: "table",
   data() {
-    return {
-
-    };
-  },
+    return {};
+  }
 };
 </script>
 
 
 <style scoped lang="less">
-
 </style>
