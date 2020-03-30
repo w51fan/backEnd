@@ -20,5 +20,6 @@ body {
   position: relative;
   border-radius: 4px;
   min-width: 1200px;
+  margin: 20px;
 }
 </style>
